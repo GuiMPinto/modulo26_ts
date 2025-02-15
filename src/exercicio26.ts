@@ -1,3 +1,6 @@
+// --- MODULO 26  ---- //
+
+// Multiplicacao
 function multiplicacao (fator1 : number, fator2 : number ): number
 {
     return fator1*fator2
@@ -8,6 +11,7 @@ multiplicacao(5,10)
 console.log('Resultado da multiplicaçao : ')
 console.log(multiplicacao)
 
+// Ola Nome
 function olaNome(nome1:string) :string
 {
     return nome1
