@@ -6,10 +6,8 @@ function multiplicacao (fator1 : number, fator2 : number ): number
     return fator1*fator2
 } 
 
-multiplicacao(5,10)
-
 console.log('Resultado da multiplicaçao : ')
-console.log(multiplicacao)
+console.log(multiplicacao(5,10))
 
 // Ola Nome
 function olaNome(nome1:string) :string
@@ -17,7 +15,6 @@ function olaNome(nome1:string) :string
     return nome1
 }
 
-olaNome('Guilherme')
+console.log('Ola '+ (olaNome('Guilherme')))
 
-console.log('Ola ')
-console.log(olaNome)
+
